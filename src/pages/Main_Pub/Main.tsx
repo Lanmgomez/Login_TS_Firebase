@@ -1,10 +1,12 @@
-import React from 'react'
+import "./Main.sass"
 
 type Props = {}
 
 const Main = (props: Props) => {
   return (
-    <div>Main</div>
+    <div className="main-div">
+      <h1>Parabéns, você está logado!</h1>
+    </div>
   )
 }
 
