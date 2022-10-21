@@ -5,9 +5,7 @@ import { FaReact, FaWindows } from "react-icons/fa";
 import { SiJavascript, SiTypescript, SiSass, SiFirebase } from "react-icons/si";
 import { FcLinux } from "react-icons/fc"
 
-type Props = {}
-
-const Home = (props: Props) => {
+const Home = () => {
   return (
     <div className="main-home-div">
         <h1>Bem-vindo</h1>
